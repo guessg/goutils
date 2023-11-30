@@ -2,8 +2,9 @@ package conc
 
 import (
 	"context"
-	"github.com/guessg/goutils/containers"
 	"reflect"
+
+	"github.com/guessg/goutils/containers"
 )
 
 type ValueType[T any] struct {
